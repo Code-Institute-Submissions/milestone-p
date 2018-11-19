@@ -2,92 +2,155 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet"  href="https://github.com/callanc810/milestone-p.git">
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <title>Home Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://github.com/callanc810/milestone-p.git">
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <title>Home Page</title>
+  <style>
+    p{
+	  color: #2F4F4F; ;
+	}
+  </style>
+  
+  
 </head>
 
 
 
 <body>
+  <header>
 
-    <header>
-        <div class="jumbotron text-center">
-            <img src="assets/images/banner.png" alt="banner.png">
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Nickelback</a>
         </div>
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">ForTheFans</a>
-                </div>
-
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="videos.html">Videos</a></li>
-
-                </ul>
-                <button class="btn btn-danger navbar-btn">Sign Up</button>
-            </div>
-        </nav>
-
-
-    </header>
-
-
-
-    <div class="col-sm-12">
-        <div class="container">
-            <img src="assets/images/nb.jpg" alt="the band" class="image" style="width:100%">
-            <div class="middle">
-                <div class="text">Let's Get Started</div>
-            </div>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li><a href="about.html">About</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="videos.html">Videos</a></li>
+          </ul>
         </div>
-    </div>
+        <!--/.nav-collapse -->
+
+    </nav>
+	
+	
+  </header>
+  <div class="content">
+
     <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <h3>Hello Nickelbackers!</h3>
-                <p>This is a fan made website </p>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-            </div>
+      <img src="assets/images/nb.jpg" alt="the band" class="image" style="width:100%">
+      <div class="middle">
+        <button class="button" onClick="document.getElementById('main-content').scrollIntoView();">Click2Scroll</button>
+      </div>
+
+
+      <div class="container-fluid text-center" <div id="main-content">
+        <h1>Welcome Nickelbackers !</h1>
+        <p class="lead"> This fan-made website that will contain exclusive content.<br> Such as... 
+		
+		
+		<br>  <p>*Getting to know the band members </p>
+	        <p>*Top Stories     </p>
+	        <p>*Tour Updates    </p>
+          <p>*Latest Music/Interviews  </p>
+		
+		
+	<p class="lead"> Many thanks for visiting my website and enjoy !     </p>
+         
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      </div>
+
+
+
+    </div>
+
+
+    <hr>
+   <footer class="page-footer font-small mdb-color pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-7 col-lg-8">
+
+          <!--Copyright-->
+          <p class="text-left text-md-left">© 2018 Copyright:
+            <a href="https://github.com/callanc810">
+              <strong> github.com/callanc810</strong>
+            </a>
+          </p>
 
         </div>
-    </div>
-    </div>
+        <!-- Grid column -->
 
-    </div>
-
-<div class="footer">
-<hr>
-<h3>footer content</h3>
-
-        <div class="col-md-2">
+        <!-- Grid column -->
+        <div class="col-md-5 col-lg-4 ml-lg-0">
 
           <!-- Social buttons -->
-          <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/Nickelback/" class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fa fa-google-plus"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
 
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-youtube"></a>
         </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+  </footer>
+  </div>
+  <!-- Footer -->
+
+
  
 
-
-
-
-
-</div>
 </body>
 
 
 
 
 </html>
+

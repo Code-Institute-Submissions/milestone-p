@@ -1,39 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="style.css" type="text/css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css" />
     <title>About the band</title>
+	
+	<style>
+	
+	   h2{
+	    color:#f4f5f6;
+	   }
+	
+	</style>
+	
+	
 </head>
 
 
 
 <body>
+
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                    <a class="navbar-brand" href="index.html">Nickelback</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="about.html">About</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+
+    </header>
     
-<header>
-<div class="jumbotron text-center">
- <img src="assets/images/banner.png" alt="banner.png" >
-</div>
-<nav class="navbar navbar-inverse">
-<div class="container-fluid">
-<div class="navbar-header">
-<a class="navbar-brand" href="index.html">ForTheFans</a>
- </div>
     
-<ul class="nav navbar-nav">
-      <li class="active"><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="news.html">News</a></li>
-     <li><a href="videos.html">Videos</a></li>
-   
-    </ul>
- <button class="btn btn-danger navbar-btn">Sign Up</button>
+
+    
+    <div class="content">
+
+       
+
+        <!-- Marketing messaging and featurettes
+    ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container marketing">
+
+<h3>Meet The Band... </h3>
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="img-circle" src="assets/images/brothers.jpg" alt="lead singer and base player" width="140" height="140">
+                    <h2>Chad&Mike kroeger</h2>
+                    <p><a class="btn btn-default" role="button" onClick="document.getElementById('brothers').scrollIntoView();">View Profile &raquo;</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="img-circle" src="assets/images/guitarist.jpeg" alt="Generic placeholder image" width="140" height="140">
+                    <h2>Ryan Peake</h2>
+                    <p><a class="btn btn-default" role="button" onClick="document.getElementById('guitarist').scrollIntoView();">View Profile &raquo;</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="img-circle"  src="assets/images/drummer.jpeg" alt="Generic placeholder image" width="140" height="140">
+                    <h2>Daniel Adair</h2>
+                    <p><a class="btn btn-default" role="button" onClick="document.getElementById('drummer').scrollIntoView();">View Profile &raquo;</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider1" id="brothers">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading"><span class="text-muted">Lead vocals / lead guitar and base player</span></h2>
+                    <p class="lead"> Both men were born in Hanna, Alberta, Canada. They share their Mother's maiden name. Mike is older and is the Base player of Nickelback. Chad is two years younger and he is the voice and lead guitarist.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" src="assets/images/mikeandchad.jpg" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <hr class="featurette-divider2" id="guitarist">
+
+            <div class="row featurette">
+                <div class="col-md-7 col-md-push-5">
+                    <h2 class="featurette-heading"><span class="text-muted">Rhythm Guitarist / Backing Vocals</span></h2>
+                    <p class="lead">Ryan Peake was born in Brooks, Alberta, Canada. He is the Rythm guitarist and backing vocalist in the band. He funded Nickelback by borrowing $30,000 from the bank.Along with brothers Chad and Mike Kroeger, Peake cofounded The Village Idiots, a cover band with a playlist consisting primarily of Metallica songs.</p>
+                </div>
+                <div class="col-md-5 col-md-pull-7">
+                    <img class="featurette-image img-responsive center-block" src="assets/images/ryanpeake.jpg" alt="Generic placeholder image">
+                </div>
+            </div>
+
+            <hr class="featurette-divider3" id="drummer">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading"><span class="text-muted"> Drummer / Backing Vocals</span></h2>
+                    <p class="lead">Adair was born in Vancouver, British Columbia, Canada and auditioned for guitarist David Martone, a Berklee College of Music graduate, who was starting an instrumental fusion band. This band, named Martone, recorded its first album in 1999.
+
+Adair at some point was also the drummer of a band called "The New Big Shoes", a small band, with one hit song, 'Smiling all the way', that has now faded out, with the lead singer being Shawn Wiese.Though "The New Big Shoes" have long since broken up, To this day Adair and Wiese are still in contact, even as Daniel Adair travels with Nickelback.
+
+In 2002, Adair joined the multi-platinum, Mississippi based band 3 Doors Down, as the touring and studio drummer. During his time with the band they recorded the studio album Seventeen Days and live album Another 700 Miles, toured 14 countries and had multiple TV appearances.
+
+Adair left 3 Doors Down to join the Canadian band Nickelback. In 2005, they released the album All the Right Reasons which debuted at #1 on Billboard and went multi-platinum. </p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" src="assets/images/DanielAdair.jpg" alt="Generic placeholder image">
+                </div>
+            </div>
+
+        </div>
+		<hr>
+
+<footer class="page-footer font-small mdb-color pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-7 col-lg-8">
+
+          <!--Copyright-->
+          <p class="text-left text-md-left">© 2018 Copyright:
+            <a href="https://github.com/callanc810">
+              <strong> github.com/callanc810</strong>
+            </a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-5 col-lg-4 ml-lg-0">
+
+          <!-- Social buttons -->
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/Nickelback/" class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com/Nickelback?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a  href="https://plus.google.com/+nickelback"  class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fa fa-google-plus"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/claire-callan-0872a7172/"  class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+  </footer>
   </div>
-</nav>
+  <!-- Footer -->
+
+
 
 </body>
 
