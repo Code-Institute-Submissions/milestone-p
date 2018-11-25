@@ -16,7 +16,7 @@
 
    My website contains 4 pages, Home, About, News, Videos.
    
-   I have a click and scroll featured on two pages I implemented this by using JavaScript.
+   I have a click and scroll featured on two pages I implemented this by using JavaScript. I have the scroll button feature on the index page only set to work on desktop. Not mobile and tablet screens.
    
    I used bootstrap to make my website responsive for different devices.
    
