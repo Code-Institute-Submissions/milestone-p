@@ -1,13 +1,30 @@
 
-   <h2>  #Welcome! </h2>
+  # My Milestone Project
 
-
+  
+## UX
+    
     I based my project on my favourite band, Nickelback. 
 	 
-	 My goal was to create a easy user experience website for my target audience which was all ages.
+	My goal was to create a easy user experience website for my target audience which was all ages.
+	
+	I have video content of the band linked from their own Youtube channel. 
 	 
-	 
-	 Credit to my mentor and the code institute community on Slack.
+---------------------
+
+## Features 
+
+   My website contains 4 pages, Home, About, News, Videos.
+   
+   I have a click and scroll featured on two pages I implemented this by using JavaScript.
+   
+   I used bootstrap to make my website responsive for different devices.
+   
+--------------------------------------
+
+
+## Credits
+	
 	 
 	 I would like to give credit to the websites I got help from when working on my project:
 	  
@@ -24,19 +41,26 @@
 	  
 	  
 	  
-	  
-	  Technology I used:
+## Technology I used:
+---------------------------
 	  
 	  *Bootstrap -nav bar/footer 
-	  **cloudflare-footer
-	  ***JavaScript (scroll effect)
-	  ****Github
-	  *****Cloud9 IDE
-	  ******Notepad++
+	  *JQuery
+	  *cloudflare-footer
+	  *JavaScript (scroll effect)
+	  *Github
+	  *Cloud9 IDE
+	  *Notepad++
 	  
 	  
+## Testing
+---------------
+
+I had my younger brother conduct end to end testing. 
 	  
-	  Images-Credit to:
+	  
+----------------------------	  
+## Media
 	  
 	  One photo was owned by myself.
 	  
@@ -51,6 +75,9 @@
 	  https://tickets.hardrockcasinosiouxcity.com/eventperformances.asp?evt=556
 	  
 	  https://www.billboard.com/articles/news/6274101/nickelback-hater-launches-campaign-to-deter-band-from-playing-london
-	 
-	 
-	 
+	  
+---------------------------	  
+## Credits
+	  Credit to my mentor and the code institute community on Slack.
+
+
